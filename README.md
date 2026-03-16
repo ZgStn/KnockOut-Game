@@ -11,15 +11,15 @@ A simple dice game built with **HTML, CSS, and JavaScript** during a distance co
 
 ### Start screen
 
-![Start screen](images/start.png)
+![Start screen](ScreenshotsImg/start.png)
 
 ### Gameplay
 
-![Gameplay](images/gameplay.png)
+![Gameplay](ScreenshotsImg/gameplay.png)
 
 ### Game over
 
-![Game over](images/gameover.png)
+![Game over](ScreenshotsImg/gameover.png)
 
 ## Learning purpose
 
