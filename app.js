@@ -46,15 +46,15 @@ btnRoll.addEventListener('click', () => {
     //to delay the roll
     setTimeout(() => {
 
-        let d1 = GetRandomDice();
-        let d2 = GetRandomDice();
+        let d1 = getRandomDice();
+        let d2 = getRandomDice();
 
         dice1.src = `img/dice-${d1}.png`;   //img/dice-4.png
         dice2.src = `img/dice-${d2}.png`;
 
         //Calculate the sum
         let sum = d1 + d2;
-        psum.innerText = sum;
+        psum.innerText = `Sum: ${sum}`;
 
         // Kontroll Knockout-rules
         if (sum === knockoutNumber) {
@@ -96,7 +96,7 @@ function resetGame() {
 
 //generate random dices//
 
-function GetRandomDice() {
+function getRandomDice() {
     return Math.ceil(Math.random() * 6); // 1-6 //
 }
 
