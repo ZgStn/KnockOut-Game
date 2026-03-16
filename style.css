@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #d8d2c8, #bfb7ab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3f3a34;
+}
+
+.app-wrapper {
+    width: min(700px, 90%);
+    background: #f5f1ea;
+    padding: 2rem;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    border: 1px solid #d6cec2;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #4b443d;
+    border-bottom: 1px solid #d8d0c4;
+    margin-bottom: 1.5rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+    padding: 0.8rem 0;
+    text-align: center;
+    color: #5b534c;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 0.8rem 0;
+    text-align: center;
+    color: #6a6259;
+}
+
+.num__pad {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    width: 70px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1px solid #c8beb1;
+    background-color: #ebe5dc;
+    color: #4a433c;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #dcd3c7;
+}
+
+
+.scr {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-right: 30px;
+    color: #5c544c;
+}
+
+.dice-1,
+.dice-2 {
+    width: 100px;
+}
+
+.dices {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.dices img {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.12));
+}
+
+.dice-sum {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: #4b443d;
+}
+
+.message-box {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f28c28; 
+    margin-top: 1rem;
+    min-height: 2rem;
+}
+
+.btn-roll {
+    width: 160px;
+    padding: 0.9rem 1.2rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #7d7468;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 0.2s ease;
+}
+
+.btn-roll:hover {
+    background-color: #6d655a;
+}
+
+
+.button-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.button-container2 {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+
+.btn-reset {
+    width: 110px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #a89f93;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 0.2s ease;
+}
+
+.btn-reset:hover {
+    background-color: #93897d;
+}
+
+
+/* animation class */
+.animation {
+    animation: rotate-fadeout 1s ease;
+}
+
+/* animation */
+@keyframes rotate-fadeout {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
