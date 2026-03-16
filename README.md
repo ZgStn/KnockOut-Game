@@ -10,8 +10,9 @@ A simple dice game built with **HTML, CSS, and JavaScript** during a distance co
 - Otherwise, the sum is added to the total score
 
 ### Start screen
-
-![Start screen](ScreenshotsImg/start.png)
+<p align="center">
+  <img src="ScreenshotsImg/start.png" width="500">
+</p>
 
 ### Gameplay
 
